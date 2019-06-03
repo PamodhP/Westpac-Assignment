@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Westpac Automation Test Kiwisaver">
+    <test name="Tests: All the User Stories">
+        <classes>
+            <class name="tests.KiwiSaverCalculatorTests">
+                <methods>
+                    <include name="useCase1_Scenario1"></include>
+                    <include name="useCase2_Scenario1"></include>
+                    <include name="useCase2_Scenario2"></include>
+                    <include name="useCase2_Scenario3"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
